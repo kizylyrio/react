@@ -1,3 +1,7 @@
-const logger = require('./logger')
+import LoggerEchma from './loggerEcmaScript'
 
-logger.info('Usando o padrão CommonJS!')
+const logger = new LoggerEchma('Using EcmaScript')
+console.log(logger.toString());
+
+// const logger = require('./loggerCommonJs')
+// logger.info('Using CommonJS!');

@@ -1,3 +1,4 @@
+//Example CommonJS
 function info(text){
     console.log(`INFO: ${text}`)
 }
