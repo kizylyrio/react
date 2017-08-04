@@ -1,14 +1,10 @@
 {
-  "name": "react-app",
+  "name": "helloWebpack",
   "version": "1.0.0",
   "description": "React template",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --progress --colors --inline ---hot"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kizylyrio/react.git"
   },
   "keywords": [],
   "author": "",
