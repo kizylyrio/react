@@ -23,6 +23,7 @@
 // console.log(product, newProduct)
 
 //************react Hello World************ */
+import './style.css'
 import 'react'
 
 export default props =>(
