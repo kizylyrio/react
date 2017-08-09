@@ -1,5 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Title from './components'
+import Title , { HelloWorld } from './components'
 
-ReactDOM.render(<Title value="Friend"/>, document.getElementById('app') )
+ReactDOM.render(
+    <div>
+        <Title value="Friend"/>
+        <HelloWorld />
+    </div>
+, document.getElementById('app') )
