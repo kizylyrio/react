@@ -1,10 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Title , { HelloWorld } from './components'
+import Family  from './family'
 
 ReactDOM.render(
-    <div>
-        <Title value="Friend"/>
-        <HelloWorld />
-    </div>
+    <Family />
 , document.getElementById('app') )
