@@ -1,7 +1,8 @@
 import React from 'react'
+import {setPropertiesOnChildren} from '../public/utils.js'
 
 export default props => (
     <div>
-        {props.children}
+        {setPropertiesOnChildren(props)}
     </div>
 )
