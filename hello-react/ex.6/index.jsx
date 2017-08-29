@@ -3,5 +3,5 @@ import ReactDOM from 'react-dom'
 import Component  from './component'
 
 ReactDOM.render(
-    <Component name="Increment/Decrement Component" initialValue={0}/>
+    <Component value="My Value"/>
 , document.getElementById('app') )
