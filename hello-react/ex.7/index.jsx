@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Field  from './field'
+import Component  from './component'
 
 ReactDOM.render(
-    <Field initialValue="My field"/>
+    <Component name="Increment/Decrement Component" initialValue={0}/>
 , document.getElementById('app') )
